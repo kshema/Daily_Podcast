@@ -3,7 +3,6 @@
 __pycache__/
 *.py[cod]
 
-config/subjects.yaml
 output/
 secrets/
 token.json
