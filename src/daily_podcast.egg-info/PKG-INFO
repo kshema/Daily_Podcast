@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: daily-podcast
+Version: 0.1.0
+Summary: Configurable AI-generated daily podcast sent by Gmail.
+Requires-Python: >=3.11
+Requires-Dist: apscheduler>=3.10.4
+Requires-Dist: elevenlabs>=2.0.0
+Requires-Dist: google-api-python-client>=2.140.0
+Requires-Dist: google-auth>=2.33.0
+Requires-Dist: google-auth-oauthlib>=1.2.1
+Requires-Dist: openai>=1.99.0
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: pydantic-settings>=2.4.0
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: pyyaml>=6.0.2

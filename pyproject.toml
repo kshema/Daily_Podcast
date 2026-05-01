@@ -1,0 +1,30 @@
+[project]
+name = "daily-podcast"
+version = "0.1.0"
+description = "Configurable AI-generated daily podcast sent by Gmail."
+requires-python = ">=3.11"
+dependencies = [
+  "apscheduler>=3.10.4",
+  "elevenlabs>=2.0.0",
+  "google-api-python-client>=2.140.0",
+  "google-auth>=2.33.0",
+  "google-auth-oauthlib>=1.2.1",
+  "openai>=1.99.0",
+  "pydantic>=2.8.2",
+  "pydantic-settings>=2.4.0",
+  "python-dotenv>=1.0.1",
+  "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+daily-podcast = "daily_podcast.cli:main"
+
+[build-system]
+requires = ["setuptools>=70.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

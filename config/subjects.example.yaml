@@ -1,0 +1,22 @@
+podcast:
+  title: "Kshema's Morning Brief"
+  duration_minutes: 5
+  tone: "smart, warm, concise, practical"
+  audience: "one busy professional who wants useful context before work"
+  include_sources: true
+
+subjects:
+  - name: "Artificial intelligence"
+    focus: "product launches, major model updates, developer tooling, and AI policy"
+    priority: high
+  - name: "Markets"
+    focus: "US market-moving headlines, rates, big tech earnings, and macro signals"
+    priority: medium
+  - name: "Health and longevity"
+    focus: "credible research updates with practical takeaways"
+    priority: medium
+
+delivery:
+  email_subject_prefix: "Daily Podcast"
+  include_transcript: true
+  include_headlines: true
