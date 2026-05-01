@@ -1,0 +1,28 @@
+podcast:
+  title: "Morning Brief"
+  duration_minutes: 5
+  tone: "smart, warm, concise, practical"
+  audience: "one busy professional who wants useful context before work"
+  include_sources: true
+
+subjects:
+  - name: "US"
+    focus: "major US headlines first, even when not personally related: White House and presidential statements or policy positions, national politics, Congress, Supreme Court and federal policy, Iran and Middle East policy, foreign affairs, economy, markets, major business and technology news, public safety, weather or disaster alerts, and NJ headlines when they are significant"
+    priority: high
+  - name: "India"
+    focus: "major India headlines first, even when not personally related: national politics, economy, markets, technology policy, foreign relations, public safety, weather or disaster alerts, education, health, and major national developments"
+    priority: high
+  - name: "Kerala, India"
+    focus: "major Kerala headlines first, even when not personally related: state government decisions, politics, local economy, public safety, weather and monsoon alerts, health, education, travel, diaspora concerns, culture, and major district-level developments"
+    priority: high
+  - name: "Technology"
+    focus: "major technology headlines and practical impact: AI, consumer technology, cybersecurity, big tech companies, social media, privacy, regulation, gadgets, cloud platforms, digital safety, and useful productivity trends"
+    priority: medium
+  - name: "Sports"
+    focus: "major sports headlines with emphasis on cricket: India cricket, IPL, international cricket, women's cricket, major tournaments, standout performances, schedules, results, and important sports stories from the US, India, and Kerala"
+    priority: medium
+
+delivery:
+  email_subject_prefix: "Daily News Digest"
+  include_transcript: true
+  include_headlines: true
